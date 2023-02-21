@@ -1,0 +1,32 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: floralwhite;
+    color: #222;
+    max-width: 600px;
+    margin: 5vh auto;
+}
+
+h6 {
+    color: rgb(156, 98, 23);
+}
+
+p {
+    line-height: 1.5;
+}
+
+article + article {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 3px solid #c5c5c5;
+}
+
+a {
+    padding: 0.4vmax 0.6vmax 0 0;
+    color: rgb(0, 0, 151);
+    text-decoration: none;
+}
+
+a:hover {
+    color: floralwhite;
+    background-color: #333;
+}
